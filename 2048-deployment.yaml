@@ -14,7 +14,7 @@ spec:
         app: "frontend"
     spec:
       containers:
-      - image: 881081147231.dkr.ecr.ap-south-1.amazonaws.com/gitops-lab:2
+      - image: 881081147231.dkr.ecr.ap-south-1.amazonaws.com/gitops-lab:3
         imagePullPolicy: Always
         name: "frontend"
         ports:
